@@ -1,0 +1,20 @@
+@media (max-width:800px){
+        .signup{
+                min-width: 636px;
+                max-width: 640px;
+        }
+        .signup_field{
+                width: 502.8px;
+        
+        }
+        .signup_field_content{
+                left: 13.8px;
+        }
+        .signup_block{
+                left:0%;
+                width: 627px;
+        }
+        .svg_pic {
+                margin-left: 180px;}
+        
+        }

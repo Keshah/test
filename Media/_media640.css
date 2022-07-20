@@ -1,0 +1,101 @@
+@media (max-width:640px){
+        .signup{
+                width: 100%;
+                min-width: 0px;
+                max-width: none;
+                min-height: 767px;
+                top: 0%;
+        }
+        .signup_block{
+                width: 98%;
+                height: 90%;
+        }
+        .signup_field {
+                width: 100%;
+                left: 0%;
+                top: 52px;
+                height: 93%;
+        }
+        .signup_field_content {
+                width: 100%;
+                left: 0%;
+                height: 96%;
+        }
+        .signup_bitmap{
+                width: 100%;
+                top: -58px;
+                height: 138px;
+        }
+        .svg_pic {
+                margin-left: 34%;
+                margin-top: 114.52px;
+        }
+        .signup_bitmap_text{
+                top: 39.5px;
+                transform: none;
+        }
+        .form{
+                display: flex;
+                position: absolute;
+                flex-direction: column;
+                flex-wrap: nowrap;
+        }
+        .name_form{
+                left: 30px;
+        }
+        .surname_form{
+                top: 154px;
+                left: 30px;
+        }
+        .country_form{
+                top: 205px;
+                left: 30px;
+        }
+        .mail_form{
+                top: 255px;
+                left: 30px;
+        }
+        .birthday_form{
+                top: 324px;
+                left: 30px;
+        }
+        .gender_form{
+                top: 361px;
+                left: 30px;
+        }
+        .password_form{
+                top: 415px;
+                left: 30px;
+        }
+        .cpassword_form{
+                top: 465px;
+                left: 30px;
+        }
+        .logbutton_txt{
+                top: 540px;
+                left: 30px;
+                width: 137px;
+
+        }
+        .validateBtn{
+                top: 544px;
+                left: 25px;
+        }
+        .uname{
+                width: 121px;
+        }
+        .select_css{
+                width: 175px;
+        }
+        .NewUser{
+                left: 31%;
+                top: 20.52px;
+        }
+        .UseTheForm{
+                left: 19%;
+                top: 50.52px;
+        }
+        .svg_pic {
+                margin-left: -14%;
+        }
+}

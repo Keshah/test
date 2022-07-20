@@ -1,0 +1,442 @@
+* {
+        margin: 0;
+        padding: 0;
+        
+}
+
+.center {
+        padding: 0 calc(50% - 590px);
+}
+.signup{
+        background: #F4F5FC;
+        min-width: 800px;
+        max-width: 800px;
+        min-height: 600px;
+        overflow: auto;
+        margin: auto;
+        position: relative;
+        top: 100px; left: 0; bottom: 0; right: 0;
+        filter: drop-shadow(0px 12px 82px rgba(0, 0, 0, 0.2));
+        
+}
+.signup_block{
+        position: absolute;
+        width: 665px;
+        height: 481px;
+        left: 68px;
+        top: 60px;
+}
+.signup_field{
+        position: absolute;
+        width: 527.8px;
+        height: 481px;
+        left: 20.63%;
+        right: 0%;
+        top: 0.1%;
+        bottom: 0.11%;
+        background: #FFFFFF;
+}
+.signup_bitmap{
+        position: absolute;
+        width: 138px;
+        height: 481px;
+        background: #5A61ED;
+}
+.signup_field_content{
+        position: absolute;
+        width: 485px;
+        height: 409px;
+        top: 38.52px; left: 20.8px; bottom: 32.48px; right: 22px;
+}
+.NewUser{
+        position: absolute;
+        height: 26px;
+        left: 0%;
+        top: 38.52px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+        letter-spacing: -0.46px;
+        color: #111111;
+        font-weight: bold;
+        
+}
+.UseTheForm{
+        position: absolute;
+        height: 16px;
+        left: 0%;
+        top: 64.52px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111111;
+        border-bottom: 1px solid #F2F2F2;
+        
+}
+
+.name_form{
+        position: absolute;
+        left: 0%;
+        right: 51.55%;
+        top: 100.52px;
+        bottom: 74.57%;
+}
+.surname_form{
+        position: absolute;
+        left: 51.13%;
+        right: 0%;
+        top: 100.52px;
+        bottom: 74.57%;
+
+}
+.country_form{
+        position: absolute;
+        left: 0%;
+        right: 51.55%;
+        top: 158.59px;
+        bottom: 60.39%;
+}
+.mail_form{
+        position: absolute;
+        left: 51.13%;
+        right: 0%;
+        top: 158.59px;
+        bottom: 60.39%;
+}
+.password_form{
+        position: absolute;
+        left: 0%;
+        right: 51.55%;
+        top: 275.52px;
+        bottom: 31.78%;
+}
+.cpassword_form{
+        position: absolute;
+        left: 51.24%;
+        right: 0.1%;
+        top: 57.95%;
+        bottom: 31.78%;    
+        top: 275.52px;
+
+}
+::-webkit-input-placeholder  {
+        position: absolute;
+        height: 16px;
+        left: 0.17%;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111111;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+        color: rgb(190, 188, 188);
+    
+}
+
+input {
+
+        margin-top: 19px;
+        font-family: 'Work Sans', sans-serif;
+        height: 16px;
+        left: 0.17%;
+        right: 85.36%;
+        top: calc(50% - 16px/2 + 5.9px);
+        font-size: 14px;
+        line-height: 16px;
+        color: #111111;
+        font-weight: 600;
+        border: none;
+
+}
+input:invalid{
+        color: #FF2222;
+        border-bottom: 1px solid red;
+    
+  }
+
+  input:required {
+        outline: none;
+        border-bottom: 1px solid #F2F2F2;
+
+  }
+input:valid{
+        border-bottom: 1px solid #F2F2F2;
+}
+
+
+.input-control.success input {
+        border-color: #09c372;
+}
+
+.input-control.error input {
+        border-color: #ff3860;
+    
+}
+
+.input-control .error {
+        color: #ff3860;
+        font-size: 9px;
+        height: 13px;
+}
+
+.uname{
+        position: absolute;
+        height: 14px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        /* identical to box height */
+        color: #7C7C7C;
+}
+
+
+.select_css{
+        position: absolute;
+        left: -3px;
+        width: 92%;
+        margin-top: 18.9px;
+        border: 0;
+        box-sizing : content-box;
+        transition: all 0.2s linear;
+        border-bottom: 1px solid #F2F2F2;
+        font-size: 14px;
+        font-family: 'Work Sans', sans-serif;
+        line-height: 16px;
+        color: #111111;
+        font-weight: 600;
+        background-image: url(http://www.w3.org/2000/svg);
+}
+.birthday_form{
+        position: absolute;
+        left: 0%;
+        right: 51.55%;
+        top: 235.82px;
+        bottom: 45.97%;
+}
+
+#days{
+        position: absolute;
+        height: 23px;
+        width: 56px;
+        left: 0px;
+        border-radius: 0px;
+        border: 0;
+        box-sizing : content-box;
+        transition: all 0.2s linear;
+        border-bottom: 1px solid #F2F2F2;
+        font-size: 14px;
+        font-family: 'Work Sans', sans-serif;
+        line-height: 16px;
+        color: #111111;
+        font-weight: 600;
+}
+#months{
+        position: absolute;
+        height: 23px;
+        width: 91px;
+        left: 65.80000305175781px;
+        border-radius: 0px;
+        border: 0;
+        box-sizing : content-box;
+        transition: all 0.2s linear;
+        border-bottom: 1px solid #F2F2F2;
+        font-size: 14px;
+        font-family: 'Work Sans', sans-serif;
+        line-height: 16px;
+        color: #111111;
+        font-weight: 600;
+}
+#years{
+        position: absolute;
+        height: 23px;
+        width: 68px;
+        left: 166.60000610351562px;
+        border-radius: 0px;
+        border: 0;
+        box-sizing : content-box;
+        transition: all 0.2s linear;
+        border-bottom: 1px solid #F2F2F2;
+        font-size: 14px;
+        font-family: 'Work Sans', sans-serif;
+        line-height: 16px;
+        color: #111111;
+        font-weight: 600;
+}
+
+.gender_form{
+        position: absolute;
+        left: 51.24%;
+        right: 0.1%;
+        top: 216.52px;
+        bottom: 46.21%;
+        height: 42px;
+        width: 236px;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+        border-bottom: 1px solid #F2F2F2;
+}
+
+.male{
+        box-sizing: border-box;
+        position: absolute;
+        left: 0%;
+        right: 84.81%;
+        top: 15%;
+        bottom: 10%;
+        border: 0.7px solid #5A61ED;
+        border-radius: 6.3px;    position: absolute;
+        margin-left: -20px;
+}
+.female{
+        box-sizing: border-box;
+        position: absolute;
+        left: 0%;
+        right: 82.61%;
+        top: 15%;
+        bottom: 10%;
+        border: 0.7px solid #5A61ED;
+        border-radius: 6.3px;
+}
+
+.form_radio{
+        display: flex;
+        align-items: flex-end;
+        margin-left: -85px;
+        margin-top: 5px;
+}
+.radio_1{
+        margin-right: 10px;
+}
+.radio_2{
+        margin-right: 10px;
+}
+.validateBtn{
+        position: absolute;
+        height: 32px;
+        width: 154px;
+        left: 331px;
+        top: 377px;
+        border-radius: 0px;
+        left: 68.25%;
+        right: 0%;
+        top: 92.18%;
+        bottom: 0%;
+        background: #5A61ED;
+        border: 0.5px solid #FFFFFF;
+        color: #FFFFFF;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        cursor: pointer;
+}
+
+.logbutton{
+        position: absolute;
+        height: 15px; 
+        margin-left: 2px;
+        font-family: 'WorkSans';
+        font-size: 13px;
+        line-height: 15px;
+        color: #5A61ED;
+        border-bottom: 1px solid;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+}
+.logbutton_txt{
+        position: absolute;
+        height: 15px; 
+        top: calc(50% - 15px/2 + 189px);
+        font-family: 'WorkSans';
+        font-size: 13px;
+        line-height: 15px;
+        color: #000000;
+}
+.birthday_text{
+        position: absolute;
+        height: 14px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        color: #7C7C7C;
+        top: -17.48px;
+}
+.gender_text{
+        position: absolute;
+        height: 14px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 12px;
+        line-height: 14px;
+        color: #7C7C7C;
+        left: 0px;
+}
+.signup_bitmap_text{
+        position: absolute;
+        top: 350.5px;
+        height: 63px;
+        width: 167px;
+        left: 15.5px;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 49px;
+        line-height: 63px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        transform: rotate(-90deg);
+}
+.svg_pic{
+        margin-left: 220.8px;
+        margin-top: 125.52px;
+}
+.hidden {
+        display:none;
+}
+
+
+#loader {
+        margin-top: 457px;
+        margin-left: 133px;
+    }
+
+.ThankYou{
+        position: absolute;
+        height: 26px;
+        left: 63.8px;
+        top: 216.52px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 22px;
+        line-height: 26px;
+        /* identical to box height */
+        letter-spacing: -0.46px;
+        color: #111111;
+        font-weight: bold;
+        
+}
+.YouRegistered{
+        position: absolute;
+        height: 16px;
+        left: 63.8px;
+        top: 253.52px;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 14px;
+        line-height: 16px;
+        color: #111111;
+        border-bottom: 1px solid #F2F2F2;
+        
+}
+.logbutton_txt_2{
+        position: absolute;
+        left: 20.8px;
+        height: 15px; 
+        top: calc(50% - 15px/2 + 189px);
+        font-family: 'WorkSans';
+        font-size: 13px;
+        line-height: 15px;
+        color: #000000;
+}
