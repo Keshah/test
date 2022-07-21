@@ -87,6 +87,13 @@ const validateInputs = () => {
 
 }
 
+
+var input = document.getElementById('username');
+input.focus();
+input.setSelectionRange( 6,  19 );
+
+
+
 // ВЗАИМОДЕЙСТВИЕ С АПИ
 //обработка пользовательских данных и отправка данных на сервер
 /* 
