@@ -38,8 +38,8 @@
 }
 .signup_bitmap{
         position: absolute;
-        width: 138px;
-        height: 481px;
+        width: 137.2px;
+        height: 480px;
         background: #5A61ED;
 }
 .signup_field_content{
@@ -148,7 +148,7 @@ input {
         color: #111111;
         font-weight: 600;
         border: none;
-
+        width: 235px;
 }
 input:invalid{
         color: #FF2222;
@@ -221,6 +221,7 @@ input:valid{
         height: 23px;
         width: 56px;
         left: 0px;
+        margin-top: 5.3px;
         border-radius: 0px;
         border: 0;
         box-sizing : content-box;
@@ -237,12 +238,13 @@ input:valid{
         height: 23px;
         width: 91px;
         left: 65.80000305175781px;
+        margin-top: 5.3px;
         border-radius: 0px;
         border: 0;
         box-sizing : content-box;
         transition: all 0.2s linear;
         border-bottom: 1px solid #F2F2F2;
-        font-size: 14px;
+        font-size: 13px;
         font-family: 'Work Sans', sans-serif;
         line-height: 16px;
         color: #111111;
@@ -253,6 +255,7 @@ input:valid{
         height: 23px;
         width: 68px;
         left: 166.60000610351562px;
+        margin-top: 5.3px;
         border-radius: 0px;
         border: 0;
         box-sizing : content-box;
@@ -271,11 +274,10 @@ input:valid{
         right: 0.1%;
         top: 216.52px;
         bottom: 46.21%;
-        height: 42px;
+        height: 46px;
         width: 236px;
         display: flex;
         align-items: baseline;
-        justify-content: space-around;
         border-bottom: 1px solid #F2F2F2;
 }
 
@@ -304,8 +306,8 @@ input:valid{
 .form_radio{
         display: flex;
         align-items: flex-end;
-        margin-left: -85px;
-        margin-top: 5px;
+        width: 0px;
+        margin-top: 5.3px;
 }
 .radio_1{
         margin-right: 10px;
@@ -318,11 +320,10 @@ input:valid{
         height: 32px;
         width: 154px;
         left: 331px;
-        top: 377px;
+        top: 358px;
         border-radius: 0px;
         left: 68.25%;
         right: 0%;
-        top: 92.18%;
         bottom: 0%;
         background: #5A61ED;
         border: 0.5px solid #FFFFFF;
@@ -351,7 +352,8 @@ input:valid{
 .logbutton_txt{
         position: absolute;
         height: 15px; 
-        top: calc(50% - 15px/2 + 189px);
+        top: 380px;
+        left: 20.8px;
         font-family: 'WorkSans';
         font-size: 13px;
         line-height: 15px;
@@ -377,16 +379,18 @@ input:valid{
 }
 .signup_bitmap_text{
         position: absolute;
-        top: 350.5px;
+        bottom: 81.5px;
         height: 63px;
-        width: 167px;
-        left: 15.5px;
+        width: 162px;
+        left: 10.3%;
+        right: 65.34%;
         font-family: 'PT Sans';
         font-style: normal;
         font-weight: 400;
         font-size: 49px;
         line-height: 63px;
         letter-spacing: 0.5px;
+        inline-size: max-content;
         color: #FFFFFF;
         transform: rotate(-90deg);
 }
